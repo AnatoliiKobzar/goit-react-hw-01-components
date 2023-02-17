@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const Layout = styled.main`
-  padding: 16px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 `;

@@ -1,21 +1,27 @@
+import { Name } from 'components/Profile/Profile.styled';
 import PropTypes from 'prop-types';
+import { Item, List, Section } from './Statistics.styled';
+import { getRandomHexColor } from './Statistics.styled';
 
 export const Statistics = ({ stats, title }) => {
   return (
-    <section>
-      <h2>{title}</h2>
+    <Section>
+      <Name>{title}</Name>
 
-      <ul>
+      <List>
         {stats.map(item => {
           return (
-            <li key={item.id}>
+            <Item
+              key={item.id}
+              style={{ backgroundColor: getRandomHexColor() }}
+            >
               <span>{item.label}</span>
               <span>{item.percentage}%</span>
-            </li>
+            </Item>
           );
         })}
-      </ul>
-    </section>
+      </List>
+    </Section>
   );
 };
 

@@ -11,13 +11,15 @@ export const ProfileCard = styled.div`
   border-radius: 8px;
   max-width: 320px;
 
+  background-color: #fff;
+
   img {
     width: 100%;
   }
 `;
 
 export const Name = styled.h2`
-  margin: 8px 0 8px;
+  margin: 16px 0 16px;
   font-style: italic;
   text-align: center;
   font-size: 36px;
@@ -47,6 +49,7 @@ export const Item = styled.li`
 
   border: 1px solid black;
   border-radius: 12px;
+  background-color: #14693034;
 
   p {
     margin: 0;
