@@ -9,9 +9,9 @@ export const ProfileCard = styled.div`
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 8px;
-  max-width: 320px;
 
   background-color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
   img {
     width: 100%;
@@ -20,9 +20,9 @@ export const ProfileCard = styled.div`
 
 export const Name = styled.h2`
   margin: 16px 0 16px;
+  font-size: 36px;
   font-style: italic;
   text-align: center;
-  font-size: 36px;
 `;
 
 export const Info = styled.p`

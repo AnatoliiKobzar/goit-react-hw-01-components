@@ -26,4 +26,9 @@ ul {
 img {
     display: block;
 }
+
+p {
+    padding: 0;
+    margin: 0;
+}
 `;
